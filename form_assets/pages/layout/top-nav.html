@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<!--
+This is a starter template page. Use this page to start your new project from
+scratch. This page gets rid of all links and provides the needed markup only.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <title>AdminLTE 3 | Top Navigation</title>
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
+  <!-- iCheck for radioes and radio inputs -->
+  <link rel="stylesheet" href="../../plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+</head>
+<body class="hold-transition layout-top-nav layout-navbar-fixed">
+<div class="wrapper">
+
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand-md navbar-light navbar-white">
+    <div class="container">
+      <a href="../../index3.html" class="navbar-brand">
+        <img src="../../dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+             style="opacity: .8">
+        <span class="brand-text font-weight-light">AdminLTE 3</span>
+      </a>
+      
+      <button class="navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse order-3" id="navbarCollapse">
+        <!-- Left navbar links -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="index3.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a id="dropdownSubMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">Dropdown</a>
+            <ul aria-labelledby="dropdownSubMenu1" class="dropdown-menu border-0 shadow">
+              <li><a href="#" class="dropdown-item">Some action </a></li>
+              <li><a href="#" class="dropdown-item">Some other action</a></li>
+
+              <li class="dropdown-divider"></li>
+
+              <!-- Level two dropdown-->
+              <li class="dropdown-submenu dropdown-hover">
+                <a id="dropdownSubMenu2" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">Hover for action</a>
+                <ul aria-labelledby="dropdownSubMenu2" class="dropdown-menu border-0 shadow">
+                  <li>
+                    <a tabindex="-1" href="#" class="dropdown-item">level 2</a>
+                  </li>
+
+                  <!-- Level three dropdown-->
+                  <li class="dropdown-submenu">
+                    <a id="dropdownSubMenu3" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">level 2</a>
+                    <ul aria-labelledby="dropdownSubMenu3" class="dropdown-menu border-0 shadow">
+                      <li><a href="#" class="dropdown-item">3rd level</a></li>
+                      <li><a href="#" class="dropdown-item">3rd level</a></li>
+                    </ul>
+                  </li>
+                  <!-- End Level three -->
+
+                  <li><a href="#" class="dropdown-item">level 2</a></li>
+                  <li><a href="#" class="dropdown-item">level 2</a></li>
+                </ul>
+              </li>
+              <!-- End Level two -->
+            </ul>
+          </li>
+        </ul>
+
+        <!-- SEARCH FORM -->
+        <form class="form-inline ml-0 ml-md-3">
+          <div class="input-group input-group-sm">
+            <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
+            <div class="input-group-append">
+              <button class="btn btn-navbar" type="submit">
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <!-- Right navbar links -->
+      <ul class="order-1 order-md-3 navbar-nav navbar-no-expand ml-auto">
+        <!-- Messages Dropdown Menu -->
+        <li class="nav-item dropdown">
+          <a class="nav-link" data-toggle="dropdown" href="#">
+            <i class="fas fa-comments"></i>
+            <span class="badge badge-danger navbar-badge">3</span>
+          </a>
+          <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+            <a href="#" class="dropdown-item">
+              <!-- Message Start -->
+              <div class="media">
+                <img src="../../dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+                <div class="media-body">
+                  <h3 class="dropdown-item-title">
+                    Brad Diesel
+                    <span class="float-right text-sm text-danger"><i class="fas fa-star"></i></span>
+                  </h3>
+                  <p class="text-sm">Call me whenever you can...</p>
+                  <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+                </div>
+              </div>
+              <!-- Message End -->
+            </a>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item">
+              <!-- Message Start -->
+              <div class="media">
+                <img src="../../dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+                <div class="media-body">
+                  <h3 class="dropdown-item-title">
+                    John Pierce
+                    <span class="float-right text-sm text-muted"><i class="fas fa-star"></i></span>
+                  </h3>
+                  <p class="text-sm">I got your message bro</p>
+                  <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+                </div>
+              </div>
+              <!-- Message End -->
+            </a>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item">
+              <!-- Message Start -->
+              <div class="media">
+                <img src="../../dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+                <div class="media-body">
+                  <h3 class="dropdown-item-title">
+                    Nora Silvester
+                    <span class="float-right text-sm text-warning"><i class="fas fa-star"></i></span>
+                  </h3>
+                  <p class="text-sm">The subject goes here</p>
+                  <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+                </div>
+              </div>
+              <!-- Message End -->
+            </a>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item dropdown-footer">See All Messages</a>
+          </div>
+        </li>
+        <!-- Notifications Dropdown Menu -->
+        <li class="nav-item dropdown">
+          <a class="nav-link" data-toggle="dropdown" href="#">
+            <i class="far fa-bell"></i>
+            <span class="badge badge-warning navbar-badge">15</span>
+          </a>
+          <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+            <span class="dropdown-header">15 Notifications</span>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item">
+              <i class="fas fa-envelope mr-2"></i> 4 new messages
+              <span class="float-right text-muted text-sm">3 mins</span>
+            </a>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item">
+              <i class="fas fa-users mr-2"></i> 8 friend requests
+              <span class="float-right text-muted text-sm">12 hours</span>
+            </a>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item">
+              <i class="fas fa-file mr-2"></i> 3 new reports
+              <span class="float-right text-muted text-sm">2 days</span>
+            </a>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button"><i
+              class="fas fa-th-large"></i></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- /.navbar -->
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1 class="m-0 text-dark"><img height="80" src="logo-lsp.jpg"> FR.APL.02. ASESMEN MANDIRI</h1>
+          </div><!-- /.col
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item"><a href="#">Layout</a></li>
+              <li class="breadcrumb-item active">Top Navigation</li>
+            </ol>
+          </div> /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+    <div class="content">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="card">
+              <div class="card-body">
+				<table class="table table-bordered table-sm">
+                  <tbody>
+                    <tr>
+                      <td rowspan="2" width="30%" valign="middle">Skema Sertifikasi <br/>(KKNI/Okupasi/Klaster)</td>
+                      <td>Judul</td>
+                      <td><input class="form-control form-control-sm"></td>
+                    </tr>
+                    <tr>
+                      <td>Nomor</td>
+                      <td><input class="form-control form-control-sm"></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="card">
+              <div class="card-header">
+                <h5 class="card-title m-0">PANDUAN ASESMEN MANDIRI</h5>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><b>Instruksi:</b></h5>
+                <br/>
+                <ul>
+				  <li>Baca setiap pertanyaan di kolom sebelah kiri</li>
+				  <li>Beri tanda centang ( &#10003; ) pada kotak jika Anda yakin dapat melakukan tugas yang dijelaskan.</li>
+				  <li>Isi kolom di sebelah kanan dengan mendaftar bukti yang Anda miliki untuk menunjukkan bahwa Anda melakukan tugas-tugas ini.</li>
+				</ul>  
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="card">
+              <div class="card-body">
+				<table class="table table-bordered table-sm"	>
+				  <tr>
+				    <td width="184"><strong>Unit Kompetensi:</strong></td>
+				    <td colspan="4">1/6 .  Menelaah Lingkungan Pengadaan Barang/ Jasa - M.749020.001.02</td>
+				  </tr>
+				  <tr>
+				    <td colspan="2" width="165"><strong>Dapatkah Saya ................?</strong></td>
+				    <td width="30" align="center"><strong>K</strong></td>
+				    <td width="30" align="center"><strong>BK</strong></td>
+				    <td width="465" align="center"><strong>Bukti yang relevan</strong></td>
+				  </tr>
+				  <tr>
+				    <td colspan="2">
+				    	<b>1. Elemen: Menelaah  Organisasi</b></br>
+					      <ul>
+					        <li>Kriteria  Unjuk Kerja:</li>
+					        <ul>
+					          <li>1.1 Kriteria  berbagai organisasi ditelaah secara cermat. </li>
+					          <li>1.2 Profil organisasi baik budaya, visi, misi, tujuan, strategi maupun kebijakannya ditelaah secara tepat. </li>
+					        </ul>
+					      </ul>
+				    </td>
+				    <td>
+                      <div class="icheck-success d-inline">
+                        <input type="radio" id="11-k" name="11">
+                        <label for="11-k">
+                        </label>
+                      </div>
+				    </td>
+				    <td>
+                      <div class="icheck-success d-inline">
+                        <input type="radio" id="11-bk" name="11">
+                        <label for="11-bk">
+                        </label>
+                      </div>
+				    </td>
+				    <td>&nbsp;</td>
+				  </tr>
+				  <tr>
+				    <td colspan="2">
+				    	<b>2. Elemen: Menelaah lingkungan pengadaan barang/ jasa</b></br>
+					      <ul>
+					        <li>Kriteria  Unjuk Kerja:</li>
+					        <ul>
+					          <li>2.1 Para pihak (internal dan eksternal) yang terkait dengan pengadaan barang/jasa diidentifikasi secara cermat.</li>
+					          <li>2.2 Peraturan-peraturan yang terkait dengan pengadaan barang/jasa ditelaah secara tepat sesuai dengan jenis dan sektor organisasi berada. </li>
+					        </ul>
+					      </ul>
+				    </td>
+				    <td>
+                      <div class="icheck-success d-inline">
+                        <input type="radio" id="12-k" name="12">
+                        <label for="12-k">
+                        </label>
+                      </div>
+				    </td>
+				    <td>
+                      <div class="icheck-success d-inline">
+                        <input type="radio" id="12-bk" name="12">
+                        <label for="12-bk">
+                        </label>
+                      </div>
+				    </td>
+				    <td>&nbsp;</td>
+				  </tr>
+				  <tr>
+				    <td colspan="2">
+				    	<b>3. Elemen: Merumuskan lingkungan pengadaan barang/jasa</b></br>
+					      <ul>
+					        <li>Kriteria  Unjuk Kerja:</li>
+					        <ul>
+					          <li>3.1 Hal-hal utama yang mempengaruhi lingkungan pengadaan barang/jasa dirumuskan secara cermat mengacu kepada hasil telaahan organisasi dan lingkungan pengadaan barang/jasa.</li>
+					          <li>3.2 Rumusan lingkungan pengadaan barang/jasa didokumentasikan secara cermat. </li>
+					        </ul>
+					      </ul>
+				    </td>
+				    <td>
+                      <div class="icheck-success d-inline">
+                        <input type="radio" id="13-k" name="13">
+                        <label for="13-k">
+                        </label>
+                      </div>
+				    </td>
+				    <td>
+                      <div class="icheck-success d-inline">
+                        <input type="radio" id="13-bk" name="13">
+                        <label for="13-bk">
+                        </label>
+                      </div>
+				    </td>
+				    <td>&nbsp;</td>
+				  </tr>
+				</table>
+              </div>
+            </div>
+          </div>
+
+
+		  <div class="col-lg-12">
+            <div class="card">
+              <div class="card-body">
+				<table class="table table-bordered table-sm"	>
+				  <tr>
+				    <td width="184"><strong>Unit Kompetensi:</strong></td>
+				    <td colspan="4">2/6 . Menyusun Kebutuhan dan Anggaran Pengadaan Barang/ Jasa- M.749020.004.02</td>
+				  </tr>
+				  <tr>
+				    <td colspan="2" width="165"><strong>Dapatkah Saya ................?</strong></td>
+				    <td width="30" align="center"><strong>K</strong></td>
+				    <td width="30" align="center"><strong>BK</strong></td>
+				    <td width="465" align="center"><strong>Bukti yang relevan</strong></td>
+				  </tr>
+				  <tr>
+				    <td colspan="2">
+				    	<b>1. Elemen: Melakukan Analisis belanja </b></br>
+					      <ul>
+					        <li>Kriteria  Unjuk Kerja:</li>
+					        <ul>
+					          <li>1.1 Belanja pengadaan barang/jasa tahun- tahun sebelumnya diidentifikasi secara cermat. </li>
+					          <li>1.2 Barang/jasa dikelompokkan secara cermat, sesuai dengan jenis, nilai dan risiko/ dampaknya. </li>
+					          <li>1.3 Kondisi penyedia barang/jasa diidentifikasi secara cermat. </li>
+					          <li>1.4 Perbedaan harga tahun sebelumnya dan harga pasar saat ini dianalisis secara tepat perbedaannya. </li>
+					        </ul>
+					      </ul>
+				    </td>
+				    <td>
+                      <div class="icheck-success d-inline">
+                        <input type="radio" id="21-k" name="21">
+                        <label for="21-k">
+                        </label>
+                      </div>
+				    </td>
+				    <td>
+                      <div class="icheck-success d-inline">
+                        <input type="radio" id="21-bk" name="21">
+                        <label for="21-bk">
+                        </label>
+                      </div>
+				    </td>
+				    <td>&nbsp;</td>
+				  </tr>
+				  <tr>
+				    <td colspan="2">
+				    	<b>2. Elemen: Menyusun kebutuhan barang/ jasa</b></br>
+					      <ul>
+					        <li>Kriteria  Unjuk Kerja:</li>
+					        <ul>
+					          <li>2.1 Kebutuhan barang/jasa yang diperlukan untuk mendukung pencapaian tujuan (tujuan jangka pendek, jangka menengah dan jangka panjang) organisasi diidentifikasi secara lengkap berdasarkan prediksi hasil analisis belanja (spend analysis).</li>
+					          <li>2.2 Kebutuhan barang/jasa yang telah diidentifikasi, disusun secara cermat menjadi rencana kebutuhan organisasi. </li>
+					        </ul>
+					      </ul>
+				    </td>
+				    <td>
+                      <div class="icheck-success d-inline">
+                        <input type="radio" id="22-k" name="22">
+                        <label for="22-k">
+                        </label>
+                      </div>
+				    </td>
+				    <td>
+                      <div class="icheck-success d-inline">
+                        <input type="radio" id="22-bk" name="22">
+                        <label for="22-bk">
+                        </label>
+                      </div>
+				    </td>
+				    <td>&nbsp;</td>
+				  </tr>
+				  <tr>
+				    <td colspan="2">
+				    	<b>3. Elemen: Menyusun paket dan prioritas pengadaan barang/ jasa</b></br>
+					      <ul>
+					        <li>Kriteria  Unjuk Kerja:</li>
+					        <ul>
+					          <li>3.1 Paket pengadaan barang/jasa disusun secara cermat dengan menggabungkan atau mengintegrasikan kebutuhan yang sejenis dan/atau memberikan kinerja yang terukur.</li>
+					          <li>3.2 Prioritas paket pengadaan barang/jasa ditentukan secara tepat berdasarkan urgensi dan risiko/ dampaknya. </li>
+					        </ul>
+					      </ul>
+				    </td>
+				    <td>
+                      <div class="icheck-success d-inline">
+                        <input type="radio" id="23-k" name="23">
+                        <label for="23-k">
+                        </label>
+                      </div>
+				    </td>
+				    <td>
+                      <div class="icheck-success d-inline">
+                        <input type="radio" id="23-bk" name="23">
+                        <label for="23-bk">
+                        </label>
+                      </div>
+				    </td>
+				    <td>&nbsp;</td>
+				  </tr>
+				  <tr>
+				    <td colspan="2">
+				    	<b>4. Elemen: Menyusun rencana anggaran pengadaan barang/ jasa</b></br>
+					      <ul>
+					        <li>Kriteria  Unjuk Kerja:</li>
+					        <ul>
+					          <li>4.1 Harga pengadaan barang/jasa disusun secara cermat sesuai dengan jenis dan spesifikasi umum berdasarkan hasil analisis belanja.</li>
+					          <li>4.2 Rencana anggaran/biaya setiap paket pengadaan barang/jasa disusun secara cermat berdasarkan jenis, volume dan harga satuan dengan tepat. </li>
+					          <li>4.3 Rencana kebutuhan dan anggaran pengadaan barang/jasa yang telah dirumuskan, disampaikan kepada pihak yang diberi kewenangan oleh organisasi/lembaga untuk memperoleh persetujuan</li>
+					          <li>4.4 Rencana paket pengadaan satuan pekerjaan atau kegiatan  barang/jasa yang telah mendapatkan persetujuan, didokumentasikan secara tepat sesuai dengan ketentuan</li>
+					        </ul>
+					      </ul>
+				    </td>
+				    <td>
+                      <div class="icheck-success d-inline">
+                        <input type="radio" id="24-k" name="24">
+                        <label for="24-k">
+                        </label>
+                      </div>
+				    </td>
+				    <td>
+                      <div class="icheck-success d-inline">
+                        <input type="radio" id="24-bk" name="24">
+                        <label for="24-bk">
+                        </label>
+                      </div>
+				    </td>
+				    <td>&nbsp;</td>
+				  </tr>
+				</table>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-12">
+            <div class="card">
+              <div class="card-body">
+				<table class="table table-bordered table-sm"	>
+				  <tr>
+				    <td width="184"><strong>Unit Kompetensi:</strong></td>
+				    <td colspan="4">3/6. Memilih Penyedia Barang / Jasa- M.749020.008.02</td>
+				  </tr>
+				  <tr>
+				    <td colspan="2" width="165"><strong>Dapatkah Saya ................?</strong></td>
+				    <td width="30" align="center"><strong>K</strong></td>
+				    <td width="30" align="center"><strong>BK</strong></td>
+				    <td width="465" align="center"><strong>Bukti yang relevan</strong></td>
+				  </tr>
+				  <tr>
+				    <td colspan="2">
+				    	<b>1. Elemen: Menganalisis kinerja penyedia barang/ jasa</b></br>
+					      <ul>
+					        <li>Kriteria  Unjuk Kerja:</li>
+					        <ul>
+					          <li>1.1 Informasi ketersediaan penyedia barang/jasa dihimpun secara cermat dari berbagai sumber yang dapat dipercaya. </li>
+					          <li>1.2 Kinerja penyedia barang/jasa yang sesuai dengan paket pengadaan barang/jasa diinventarisasi secara tepat. </li>
+					          <li>1.3 Kemampuan penyedia barang/jasa dianalisis secara cermat kesesuaiannya dengan strategi pengadaan barang/jasa dan rancangan kontrak pengadaan barang/jasa. </li>
+					          <li>1.4 Motivasi penyedia barang/jasa yang sesuai dengan paket pengadaan barang/jasa diidentifikasi secara cermat. </li>
+					        </ul>
+					      </ul>
+				    </td>
+				    <td>
+                      <div class="icheck-success d-inline">
+                        <input type="radio" id="31-k" name="31">
+                        <label for="31-k">
+                        </label>
+                      </div>
+				    </td>
+				    <td>
+                      <div class="icheck-success d-inline">
+                        <input type="radio" id="31-bk" name="31">
+                        <label for="31-bk">
+                        </label>
+                      </div>
+				    </td>
+				    <td>&nbsp;</td>
+				  </tr>
+				  <tr>
+				    <td colspan="2">
+				    	<b>2. Elemen: Menentukan penyedia barang/ jasa</b></br>
+					      <ul>
+					        <li>Kriteria  Unjuk Kerja:</li>
+					        <ul>
+					          <li>2.1 Penyedia barang/jasa ditentukan secara tepat sesuai dengan jenis pengadaan barang/jasa. </li>
+					          <li>2.2 Daftar penyedia barang/jasa yang telah ditentukan disusun secara cermat berdasarkan urutan kinerja penyedia barang/jasa. </li>
+					        </ul>
+					      </ul>
+				    </td>
+				    <td>
+                      <div class="icheck-success d-inline">
+                        <input type="radio" id="32-k" name="32">
+                        <label for="32-k">
+                        </label>
+                      </div>
+				    </td>
+				    <td>
+                      <div class="icheck-success d-inline">
+                        <input type="radio" id="32-bk" name="32">
+                        <label for="32-bk">
+                        </label>
+                      </div>
+				    </td>
+				    <td>&nbsp;</td>
+				  </tr>
+				</table>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-12">
+            <div class="card">
+              <div class="card-body">
+				<table class="table table-bordered table-sm"	>
+				  <tr>
+				    <td width="184"><strong>Unit Kompetensi:</strong></td>
+				    <td colspan="4">4/6.  Menyusun Dokumen Pengadaann Barang / Jasa- M.749020.010.02</td>
+				  </tr>
+				  <tr>
+				    <td colspan="2" width="165"><strong>Dapatkah Saya ................?</strong></td>
+				    <td width="30" align="center"><strong>K</strong></td>
+				    <td width="30" align="center"><strong>BK</strong></td>
+				    <td width="465" align="center"><strong>Bukti yang relevan</strong></td>
+				  </tr>
+				  <tr>
+				    <td colspan="2">
+				    	<b>1. Elemen: Melakukan pemilihan dokumen pengadaan barang/ jasa</b></br>
+					      <ul>
+					        <li>Kriteria  Unjuk Kerja:</li>
+					        <ul>
+					          <li>1.1 Jenis dokumen pengadaan barang/jasa diidentifikasi secara cermat. </li>
+					          <li>1.2 Dokumen pengadaan barang/jasa dipilih secara cermat kesesuaiannya dengan paket pengadaan barang/jasa. </li>
+					        </ul>
+					      </ul>
+				    </td>
+				    <td>
+                      <div class="icheck-success d-inline">
+                        <input type="radio" id="41-k" name="41">
+                        <label for="41-k">
+                        </label>
+                      </div>
+				    </td>
+				    <td>
+                      <div class="icheck-success d-inline">
+                        <input type="radio" id="41-bk" name="41">
+                        <label for="41-bk">
+                        </label>
+                      </div>
+				    </td>
+				    <td>&nbsp;</td>
+				  </tr>
+				  <tr>
+				    <td colspan="2">
+				    	<b>2. Elemen: Menyusun semua jenis dokumen pengadaan barang/ jasa</b></br>
+					      <ul>
+					        <li>Kriteria  Unjuk Kerja:</li>
+					        <ul>
+					          <li>2.1 Semua jenis dokumen pengadaan barang/jasa disusun secara lengkap sesuai ketentuan. </li>
+					          <li>2.2 Semua jenis dokumen pengadaan barang/jasa dilengkapi secara cermat sesuai dengan data paket pengadaan barang/jasa. </li>
+					          <li>2.3 Dokumen pengadaan barang/jasa ditetapkan secara cermat sesuai ketentuan.</li>
+					        </ul>
+					      </ul>
+				    </td>
+				    <td>
+                      <div class="icheck-success d-inline">
+                        <input type="radio" id="42-k" name="42">
+                        <label for="42-k">
+                        </label>
+                      </div>
+				    </td>
+				    <td>
+                      <div class="icheck-success d-inline">
+                        <input type="radio" id="42-bk" name="42">
+                        <label for="42-bk">
+                        </label>
+                      </div>
+				    </td>
+				    <td>&nbsp;</td>
+				  </tr>
+				</table>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-12">
+            <div class="card">
+              <div class="card-body">
+				<table class="table table-bordered table-sm"	>
+				  <tr>
+				    <td width="184"><strong>Unit Kompetensi:</strong></td>
+				    <td colspan="4">5/6.  Melakukan Kualifikasi Penyedia Barang/ Jasa- M.749020.011.02</td>
+				  </tr>
+				  <tr>
+				    <td colspan="2" width="165"><strong>Dapatkah Saya ................?</strong></td>
+				    <td width="30" align="center"><strong>K</strong></td>
+				    <td width="30" align="center"><strong>BK</strong></td>
+				    <td width="465" align="center"><strong>Bukti yang relevan</strong></td>
+				  </tr>
+				  <tr>
+				    <td colspan="2">
+				    	<b>1. Elemen: Menentukan kriteria penyedia barang/ jasa</b></br>
+					      <ul>
+					        <li>Kriteria  Unjuk Kerja:</li>
+					        <ul>
+					          <li>1.1 Jenis usaha dan spesifikasi teknis dianalisis secara tepat. </li>
+					          <li>1.2 Kriteria pemenuhan kualifikasi ditentukan secara tepat sesuai dengan kategori dan paket pengadaan barang/jasa. </li>
+					        </ul>
+					      </ul>
+				    </td>
+				    <td>
+                      <div class="icheck-success d-inline">
+                        <input type="radio" id="51-k" name="51">
+                        <label for="51-k">
+                        </label>
+                      </div>
+				    </td>
+				    <td>
+                      <div class="icheck-success d-inline">
+                        <input type="radio" id="51-bk" name="51">
+                        <label for="51-bk">
+                        </label>
+                      </div>
+				    </td>
+				    <td>&nbsp;</td>
+				  </tr>
+				  <tr>
+				    <td colspan="2">
+				    	<b>2. Elemen: Melakukan validasi kualifikasi penyedia barang/ jasa</b></br>
+					      <ul>
+					        <li>Kriteria  Unjuk Kerja:</li>
+					        <ul>
+					          <li>2.1 Dokumen kualifikasi yang dikirimkan atau diunggah penyedia barang/jasa secara elektronik ataupun manual diverifikasi secara cermat kesesuaiannya dengan kriteria pemenuhan kualifikasi. </li>
+					          <li>2.2 Validasi kualifikasi penyedia barang/jasa dilakukan secara buril (dokumen) dan/atau uji independensi dan/atau kunjungan lapangan. </li>
+					          <li>2.3 Kesesuaian kualifikasi penyedia barang/jasa dengan kriteria ditetapkan secara cermat.</li>
+					        </ul>
+					      </ul>
+				    </td>
+				    <td>
+                      <div class="icheck-success d-inline">
+                        <input type="radio" id="52-k" name="52">
+                        <label for="52-k">
+                        </label>
+                      </div>
+				    </td>
+				    <td>
+                      <div class="icheck-success d-inline">
+                        <input type="radio" id="52-bk" name="52">
+                        <label for="52-bk">
+                        </label>
+                      </div>
+				    </td>
+				    <td>&nbsp;</td>
+				  </tr>
+				</table>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-12">
+            <div class="card">
+              <div class="card-body">
+				<table class="table table-bordered table-sm"	>
+				  <tr>
+				    <td width="184"><strong>Unit Kompetensi:</strong></td>
+				    <td colspan="4">6/6.  Mengevaluasi Dokumen Penawaran- M.749020.014.02</td>
+				  </tr>
+				  <tr>
+				    <td colspan="2" width="165"><strong>Dapatkah Saya ................?</strong></td>
+				    <td width="30" align="center"><strong>K</strong></td>
+				    <td width="30" align="center"><strong>BK</strong></td>
+				    <td width="465" align="center"><strong>Bukti yang relevan</strong></td>
+				  </tr>
+				  <tr>
+				    <td colspan="2">
+				    	<b>1. Elemen: Mengadministrasikan dokumen penawaran</b></br>
+					      <ul>
+					        <li>Kriteria  Unjuk Kerja:</li>
+					        <ul>
+					          <li>1.1 Dokumen penawaran yang disampaikan penyedia barang/jasa diterima sesuai ketentuan dan waktu yang ditetapkan. </li>
+					          <li>1.2 Dokumen penawaran dibuka sesuai ketentuan dan waktu yang ditetapkan. </li>
+					          <li>1.3 Berita acara pembukaan dokumen penawaran dirumuskan secara lengkap dengan menggunakan format dan sesuai ketentuan. </li>
+					          <li>1.4 Dokumen penawaran diadministrasi sesuai pedoman/ ketentuan pada organisasi. </li>
+					        </ul>
+					      </ul>
+				    </td>
+				    <td>
+                      <div class="icheck-success d-inline">
+                        <input type="radio" id="61-k" name="61">
+                        <label for="61-k">
+                        </label>
+                      </div>
+				    </td>
+				    <td>
+                      <div class="icheck-success d-inline">
+                        <input type="radio" id="61-bk" name="61">
+                        <label for="61-bk">
+                        </label>
+                      </div>
+				    </td>
+				    <td>&nbsp;</td>
+				  </tr>
+				  <tr>
+				    <td colspan="2">
+				    	<b>2. Elemen: Melakukan evaluasi dokumen penawaran</b></br>
+					      <ul>
+					        <li>Kriteria  Unjuk Kerja:</li>
+					        <ul>
+					          <li>2.1 Cakupan evaluasi dokumen diidentifikasi secara cermat sesuai ketentuan. </li>
+					          <li>2.2 Metode evaluasi penawaran yang sesuai dengan paket pengadaan barang/jasa ditentukan secara cermat. </li>
+					          <li>2.3 Dokumen penawaran administrasi dievaluasi secara cermat sesuai dengan ketentuan dan metode yang telah ditetapkan.</li>
+					          <li>2.4 Dokumen penawaran teknis dievaluasi secara cermat dengan menggunakan metode dan tata cara evaluasi yang telah ditetapkan.</li>
+					          <li>2.5 Dokumen penawaran harga dievaluasi secara cermat sesuai dengan ketentuan dan metode yang telah ditetapkan.</li>
+					        </ul>
+					      </ul>
+				    </td>
+				    <td>
+                      <div class="icheck-success d-inline">
+                        <input type="radio" id="62-k" name="62">
+                        <label for="62-k">
+                        </label>
+                      </div>
+				    </td>
+				    <td>
+                      <div class="icheck-success d-inline">
+                        <input type="radio" id="62-bk" name="62">
+                        <label for="62-bk">
+                        </label>
+                      </div>
+				    </td>
+				    <td>&nbsp;</td>
+				  </tr>
+				  <tr>
+				    <td colspan="2">
+				    	<b>3. Elemen: Menentukan hasil evaluasi dokumen penawaran</b></br>
+					      <ul>
+					        <li>Kriteria  Unjuk Kerja:</li>
+					        <ul>
+					          <li>3.1 Peringkat pemenang disusun secara objektif berdasarkan hasil evaluasi dokumen penawaran. </li>
+					          <li>3.2 Berita acara hasil evaluasi dokumen penawaran dirumuskan secara lengkap dengan menggunakan format dan sesuai ketentuan. </li>
+					        </ul>
+					      </ul>
+				    </td>
+				    <td>
+                      <div class="icheck-success d-inline">
+                        <input type="radio" id="63-k" name="63">
+                        <label for="63-k">
+                        </label>
+                      </div>
+				    </td>
+				    <td>
+                      <div class="icheck-success d-inline">
+                        <input type="radio" id="63-bk" name="63">
+                        <label for="63-bk">
+                        </label>
+                      </div>
+				    </td>
+				    <td>&nbsp;</td>
+				  </tr>
+				</table>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        <!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+    <div class="p-3">
+      <h5>Title</h5>
+      <p>Sidebar content</p>
+    </div>
+  </aside>
+  <!-- /.control-sidebar -->
+
+  <!-- Main Footer -->
+  <footer class="main-footer">
+    <!-- To the right -->
+    <div class="float-right d-none d-sm-inline">
+      Anything you want
+    </div>
+    <!-- Default to the left -->
+    <strong>Copyright &copy; 2014-2019 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
+  </footer>
+</div>
+<!-- ./wrapper -->
+
+<!-- REQUIRED SCRIPTS -->
+
+<!-- jQuery -->
+<script src="../../plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- AdminLTE App -->
+<script src="../../dist/js/adminlte.min.js"></script>
+</body>
+</html>
